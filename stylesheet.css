@@ -1,0 +1,94 @@
+/*for header*/
+.header{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+h1{
+    background-color:#f5de50;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+}
+/*for form*/
+form{
+    margin: 20px;
+    margin-right: 60px;
+}
+input{
+    width:30vw
+}
+/*for menu*/
+.menu{
+    text-align: right;
+    background-color: whitesmoke;
+}
+.menu button{
+      margin-right: 50px;
+      display: inline;
+      border:none;
+      background-color: whitesmoke;
+
+}
+/*for cards function*/
+.column1 .card{
+    flex-direction: row;
+    padding: 10px;
+    
+}
+.column1 a{
+    text-decoration: none;
+}
+.populardly{
+    margin-top: 20px;
+}
+.card .card-text{
+    margin-left: 8px;
+}
+.card .card-text i{
+    color:gold
+}
+label{
+    font-weight: bold;
+}
+.container{
+    background-color: whitesmoke;
+    padding-bottom: 12px;
+}
+/*for card function*/
+.card1 .card-body1{
+    display: flex;
+    flex-direction: row;
+}
+.card1 .card-text i{
+    color:gold
+}
+.card1 .card-text{
+    margin-left: 15px;
+
+}
+.card1 .cardarea{
+    padding: 10px;
+    padding-top: 30px;
+}
+/*for responsive design*/
+@media (max-width:500px){
+    .menu{
+        text-align: center;
+        background-color: whitesmoke;
+}
+.menu button{
+    margin-right: 20px;
+}
+form{
+    margin: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.header{
+    padding: 10px;
+}
+}
